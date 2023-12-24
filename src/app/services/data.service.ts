@@ -12,9 +12,11 @@ export class DataService {
 
   async getProyectos(){
     let proyectos: any = await this.http.get('assets/data/proyectos.json').toPromise(); 
-    JSON.parse(JSON.stringify(proyectos));
+    proyectos = JSON.parse(JSON.stringify(proyectos));
 
     let categorias: any = await this.getCategorias();
+    categorias = JSON.parse(JSON.stringify(categorias));
+    
     proyectos.forEach((p: any) => {
       p.categoria = categorias.find((c: any) => c.slug == p.categoria)
     })

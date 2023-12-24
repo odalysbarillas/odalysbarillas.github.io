@@ -6,9 +6,5 @@
     {
         "nombre": "Aplicaciones",
         "slug": "aplicaciones"
-    },
-    {
-        "nombre": "Moviles",
-        "slug": "moviles"
     }
 ]
