@@ -1,0 +1,40 @@
+<div class="box-outer pb-0">
+  <!-- About -->
+  <div class="pb-3">
+    <h1 class="title title--h1 title__separate">Portfolio</h1>
+  </div>
+
+  <!-- Filter -->
+  <div class="select">
+    <span class="placeholder">Selecciona una Categoria</span>
+    <ul class="filter">
+      <li class="filter__item">Categoria</li>
+      <li class="filter__item active" data-filter="*">
+        <a class="filter__link active" href="#filter">Todo</a>
+      </li>
+      <li *ngFor="let c of categorias" class="filter__item" [attr.data-filter]="'.' + c.slug">
+        <a class="filter__link" href="#filter">{{c.nombre}}</a>
+      </li>
+    </ul>
+    <input type="hidden" name="changemetoo" />
+  </div>
+
+
+  <div class="gallery-grid js-masonry js-filter-container">
+    <div class="gutter-sizer"></div>
+    
+    <div *ngFor="let p of proyectos" class="gallery-grid__item" [class]="p.categoria.slug">
+      <a [routerLink]="[p.slug]">
+        <div class="gallery-grid__image-wrap">
+          <img class="gallery-grid__image cover lazyload" [src]="p.image" alt="" />
+        </div>
+        <div class="gallery-grid__caption">
+          <h3 class="title gallery-grid__title">{{p.nombre}}</h3>
+          <span class="gallery-grid__category">{{p.categoria.nombre}}</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+<div class="back-to-top"></div>

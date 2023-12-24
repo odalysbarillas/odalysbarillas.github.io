@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Sitios Web",
+        "slug": "sitios-web"
+    },
+    {
+        "nombre": "Aplicaciones",
+        "slug": "aplicaciones"
+    },
+    {
+        "nombre": "Moviles",
+        "slug": "moviles"
+    }
+]
