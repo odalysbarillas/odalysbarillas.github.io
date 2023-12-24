@@ -27,8 +27,10 @@
                 <span class="box box--s2 icon-box"><i class="font-icon icon-envelope"></i></span>
                 <div class="contacts-block__info">
                   <span class="overhead">Correo</span>
-                  <a class="text-overflow" href="mailto:odalysbarillas46&#64;gmail.com?subject=Cotizacion%20Sitio%20Web&body=Hola,%20Odalys!%20Estoy%20interesado/a%20en%20contatar%20tus%20servicios%20https%3A%2F%2Fodalysbarillas.github.io"
-                    title="odalysbarillas46&#64;gmail.com" target="_blank" rel="noopener">odalysbarillas46&#64;gmail.com</a>
+                  <a class="text-overflow"
+                    href="mailto:odalysbarillas46&#64;gmail.com?subject=Cotizacion%20Sitio%20Web&body=Hola,%20Odalys!%20Estoy%20interesado/a%20en%20contatar%20tus%20servicios%20https%3A%2F%2Fodalysbarillas.github.io"
+                    title="odalysbarillas46&#64;gmail.com" target="_blank"
+                    rel="noopener">odalysbarillas46&#64;gmail.com</a>
                 </div>
               </li>
               <!-- Phone -->
@@ -60,8 +62,12 @@
 
             <!-- Social -->
             <div class="social">
-              <a class="social__link" target="_blank" href="https://www.facebook.com/odalismishell.ortegarosales?mibextid=kFxxJD"><i class="feathericon-facebook"></i></a>
-              <a class="social__link" target="_blank" href="https://www.instagram.com/odalysbarillas_?igsh=YzVkODRmOTdmMw%3D%3D&utm_source=qr"><i class="feathericon-instagram"></i></a>
+              <a class="social__link" target="_blank"
+                href="https://www.facebook.com/odalismishell.ortegarosales?mibextid=kFxxJD"><i
+                  class="feathericon-facebook"></i></a>
+              <a class="social__link" target="_blank"
+                href="https://www.instagram.com/odalysbarillas_?igsh=YzVkODRmOTdmMw%3D%3D&utm_source=qr"><i
+                  class="feathericon-instagram"></i></a>
             </div>
           </div>
         </div>
@@ -72,14 +78,24 @@
         <div class="box-outer">
           <!-- Menu -->
           <div class="nav-container">
-            <ul class="nav" >
-              <li class="nav__item"><a class="nav-link" routerLinkActive="active" routerLink="sobre-mi">Sobre Mi</a></li>
-              <li class="nav__item"><a class="nav-link" routerLinkActive="active" routerLink="historial">Historial</a></li>
-              <li class="nav__item"><a class="nav-link" routerLinkActive="active" routerLink="portafolio">Portfolio</a></li>
-              <li class="nav__item"><a class="nav-link" routerLinkActive="active" routerLink="contacto">Contactáme</a></li>
+            <ul class="nav">
+              <li class="nav__item">
+                <a routerLink="/sobre-mi" routerLinkActive="active" ariaCurrentWhenActive="page">Sobre Mi</a>
+              </li>
+              <li class="nav__item">
+                <a routerLink="/historial" routerLinkActive="active" ariaCurrentWhenActive="page">Historial</a>
+              </li>
+              <li class="nav__item">
+                <a routerLink="/portafolio" routerLinkActive="active" ariaCurrentWhenActive="page">Portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a routerLink="/contacto" routerLinkActive="active" ariaCurrentWhenActive="page">Contactáme</a>
+              </li>
             </ul>
           </div>
+
           <router-outlet></router-outlet>
+          
         </div><!-- box-outer -->
       </div><!-- Content -->
     </div><!-- sticky-parent -->
@@ -87,5 +103,3 @@
 </main>
 
 <div class="back-to-top"></div>
-    
-	

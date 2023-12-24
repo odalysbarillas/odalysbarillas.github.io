@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/vendors/bootstrap.min.css",
+              "src/assets/styles/style.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/plugins.min.js",
+              "src/assets/js/common.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AppComponent } from '../app.component';
+import { ScriptsService } from '../services/scripts.service';
 
 @Component({
   selector: 'app-sobre-mi',
@@ -10,8 +11,12 @@ import { AppComponent } from '../app.component';
 })
 export class SobreMiComponent {
 
-ngOnInit(): void {
-  AppComponent.animaciones();
-}
+  constructor(
+    private scriptsService: ScriptsService
+  ) { }
+
+  ngOnInit(): void {
+    this.scriptsService.animaciones();
+  }
 
 }

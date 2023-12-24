@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
-import { AppComponent } from '../../app.component';
-import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { Component, Input } from '@angular/core';
+import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { DataService } from '../../services/data.service';
+import { ScriptsService } from '../../services/scripts.service';
 
 @Component({
   selector: 'app-proyecto',
@@ -13,25 +13,25 @@ import { DataService } from '../../services/data.service';
 })
 export class ProyectoComponent {
 
-  slug: any;
+  @Input() slug: any = '';
+
   proyecto: any;
   proyectos: any = []
 
   constructor(
-    private activeRoute: ActivatedRoute,
     private router: Router,
-    private dataService: DataService
+    private dataService: DataService,
+    private scriptsService: ScriptsService
     ) {
   }
 
   async ngOnInit() {
     await this.getProyectos();
-    AppComponent.animaciones();
+    this.scriptsService.animaciones();
   }
 
-  async getProyectos() {
+  async getProyectos(){
     this.proyectos = await this.dataService.getProyectos();
-    this.slug = this.activeRoute.snapshot.paramMap.get('slug');
     this.proyecto = this.proyectos.find((p: any) => p.slug == this.slug);
 
     if (!this.proyecto) {

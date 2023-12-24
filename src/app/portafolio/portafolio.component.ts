@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { AppComponent } from '../app.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { DataService } from '../services/data.service';
+import { ScriptsService } from '../services/scripts.service';
 
 @Component({
   selector: 'app-portafolio',
@@ -17,13 +17,15 @@ export class PortafolioComponent {
   proyectos: any = [];
 
   constructor(
+    private scriptsService: ScriptsService,
     private dataService: DataService
-  ) { }
+  ) { 
+  }
 
   async ngOnInit() {
     await this.getCategorias();
     await this.getProyectos();
-    AppComponent.animaciones();
+    this.scriptsService.animaciones();
   }
 
   async getCategorias(){
