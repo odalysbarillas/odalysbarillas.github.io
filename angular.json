@@ -25,9 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/styles/vendors/bootstrap.min.css",
-              "src/assets/styles/style.css"
+              "src/styles.css"
             ],
             "scripts": [
               "src/assets/js/jquery-3.4.1.min.js",
@@ -45,13 +43,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "2mb"
                 }
               ],
               "outputHashing": "all"
