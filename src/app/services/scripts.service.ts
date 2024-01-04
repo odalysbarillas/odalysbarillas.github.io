@@ -16,11 +16,11 @@ export class ScriptsService {
   }
 
   animaciones() {
-    this.loadScript('assets/js/plugins.min.js');
-    this.loadScript('assets/js/common.js');
-    
     this.removeScript('assets/js/plugins.min.js');
     this.removeScript('assets/js/common.js');
+    
+    this.loadScript('assets/js/plugins.min.js');
+    this.loadScript('assets/js/common.js');
   }
 
   loadScript(url: string) {

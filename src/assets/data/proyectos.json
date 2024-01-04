@@ -5,12 +5,20 @@
     "categoria": "sitios-web",
     "url": "https://fundacionhogarshalom.com.gt",
     "descripcion": "Sitio web de la Fundacion Hogar Shalom",
-    "image": "https://fundacionhogarshalom.com.gt/wp-content/uploads/2023/05/WhatsApp-Image-2023-04-26-at-17.04.45.jpeg",
+    "image": "https://fundacionhogarshalom.com.gt/wp-content/uploads/2023/05/Screen-Shot-2023-05-18-at-00.10.13.png",
     "galeria": [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg"
+      "inicio.jpg",
+      "inicio_contactanos.jpg",
+      "quienes_somos.jpg",
+      "ideales.jpg",
+      "historia.jpg",
+      "footer.jpg",
+      "galeria_aulas.jpg",
+      "galeria_carrusel.jpg",
+      "donacion.jpg",
+      "formulario_donacion.jpg",
+      "contactanos.jpg",
+      "formulario_contactanos.jpg"
     ]
   },
   {
@@ -21,24 +29,92 @@
     "descripcion": "Sitio web de Ambiente GT",
     "image": "https://ambiente.com.gt/images/slider/slide3.png",
     "galeria": [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg"
+      "inicio.jpg",
+      "inicio_servicios.jpg",
+      "nosotros.jpg",
+      "material.jpg",
+      "footer.jpg",
+      "contactanos.jpg"
     ]
+  },
+  {
+    "nombre": "Instituo de Fomento Municipal (INFOM)",
+    "slug": "infom-web",
+    "categoria": "sitios-web",
+    "url": "https://infom.gob.gt",
+    "descripcion": "Sitio web de INFOM",
+    "image": "https://infom.gob.gt/templates/yootheme/cache/a9/Home-Infom-Guatemala-a9d31a64.webp",
+    "galeria": []
   },
   {
     "nombre": "Instituo de Fomento Municipal (INFOM)",
     "slug": "infom",
     "categoria": "aplicaciones",
-    "url": "https://infom.gob.gt",
+    "url": "App privada",
     "descripcion": "Sitio web de INFOM",
-    "image": "https://infom.gob.gt/templates/yootheme/cache/a9/Home-Infom-Guatemala-a9d31a64.webp",
+    "image": "https://infom.gob.gt/templates/yootheme/cache/84/Junta-directiva-infom-84753c82.webp",
     "galeria": [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg"
+      "acceso.jpg",
+      "inicio.jpg",
+      "dashboard.jpg",
+      "municipalidades.jpg",
+      "editar_municipalidad.jpg",
+      "funcionarios.jpg",
+      "agregar_funcionario.jpg",
+      "agregar_representante.jpg",
+      "aportes.jpg",
+      "agregar_aporte.jpg",
+      "importar_aporte.jpg",
+      "prestamos.jpg",
+      "agregar_prestamo.jpg",
+      "contadores_prestamos.jpg",
+      "impresiones_filtro.jpg",
+      "nuevo_prestamo.jpg",
+      "proyeccion.jpg",
+      "disponibilidad.jpg",
+      "acciones_prestamo.jpg",
+      "orden_pago.jpg",
+      "facturas.jpg",
+      "factura_detalle.jpg",
+      "reportes.jpg",
+      "catalogos.jpg",
+      "seguridad.jpg",
+      "permisos.jpg",
+      "usuarios.jpg",
+      "configuraciones.jpg"
+    ]
+  },
+  {
+    "nombre": "Fondo de Pensiones para el personal del INDE (FOPINDE)",
+    "slug": "fopinde",
+    "categoria": "aplicaciones",
+    "url": "App privada",
+    "descripcion": "Sitio web de INFOM",
+    "image": "https://www.inde.gob.gt/wp-content/uploads/2020/06/Captura-de-pantalla-2019-02-28-a-las-17.46.51.png",
+    "galeria": [
+      "login.jpg",
+      "inicio.jpg",
+      "solicitudes.jpg",
+      "agregar_solicitud.jpg",
+      "personal.jpg",
+      "agregar_empleado.jpg",
+      "pensionados.jpg",
+      "nomina.jpg",
+      "impresion_filtros.jpg",
+      "clientes.jpg",
+      "proveedores.jpg",
+      "productos.jpg",
+      "documentos.jpg",
+      "planilla.jpg",
+      "contabilidad_partidas.jpg",
+      "partidas.jpg",
+      "cuenta_contable.jpg",
+      "bono.jpg",
+      "agregar_bono.jpg",
+      "editar_partidas_automaticas.jpg",
+      "epac.jpg"
+
+
     ]
   }
 ]
