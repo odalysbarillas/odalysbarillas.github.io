@@ -29,7 +29,7 @@
     "descripcion": "Sitio web de Ambiente GT",
     "image": "https://ambiente.com.gt/images/slider/slide3.png",
     "galeria": [
-      "inicio.jpg",
+      "incio.jpg",
       "inicio_servicios.jpg",
       "nosotros.jpg",
       "material.jpg",
@@ -44,7 +44,43 @@
     "url": "https://infom.gob.gt",
     "descripcion": "Sitio web de INFOM",
     "image": "https://infom.gob.gt/templates/yootheme/cache/a9/Home-Infom-Guatemala-a9d31a64.webp",
-    "galeria": []
+    "galeria": [
+      "inicio.jpg",
+      "inicio_quienes_somos.jpg",
+      "inicio_servicios.jpg",
+      "publicaciones_recientes.jpg",
+      "programas.jpg",
+      "footer.jpg",
+      "quienes_somos.jpg",
+      "historia.jpg",
+      "valores.jpg",
+      "servicios.jpg",
+      "estructura.jpg",
+      "aguas_subterraneas.jpg",
+      "programa_Agua.jpg",
+      "noticias.jpg",
+      "transparencia.jpg",
+      "transparencia_descarga.jpg",
+      "contacto.jpg"
+    ]
+  },
+  {
+    "nombre": "NESS Guatemala",
+    "slug": "ness-gt",
+    "categoria": "sitios-web",
+    "url": "https://ness.com.gt",
+    "descripcion": "Sitio web de INFOM",
+    "image": "https://ness.com.gt/wp-content/uploads/2021/12/Chevrolet-Colorado-2004-2012.png",
+    "galeria": [
+      "incicio.jpg",
+      "buscar_produ.jpg",
+      "categorias.jpg",
+      "destacados.jpg",
+      "productos_carrusel.jpg",
+      "tienda.jpg",
+      "nosotros.jpg",
+      "contacto.jpg"
+    ]
   },
   {
     "nombre": "Instituo de Fomento Municipal (INFOM)",
