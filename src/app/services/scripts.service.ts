@@ -11,15 +11,16 @@ export class ScriptsService {
   constructor(
     private rendererFactory: RendererFactory2,
     @Inject(DOCUMENT) private _document: Document
-  ) { 
+  ) {
     this.renderer = rendererFactory.createRenderer(null, null);
   }
 
   animaciones() {
     this.removeScript('assets/js/plugins.min.js');
-    this.removeScript('assets/js/common.js');
-    
     this.loadScript('assets/js/plugins.min.js');
+
+
+    this.removeScript('assets/js/common.js');
     this.loadScript('assets/js/common.js');
   }
 

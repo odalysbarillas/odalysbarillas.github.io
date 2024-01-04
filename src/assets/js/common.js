@@ -21,16 +21,6 @@ $(document).ready(function() {
         $('html').addClass('no-touch');
         isMobile = false;
     }
-
-
-    /*-----------------------------------------------------------------
-      Show/hide additional info
-    -------------------------------------------------------------------*/
-
-    $('.js-btn-toggle').on('click', function(e) {     
-        $('.js-show').toggle('slow');
-        e.preventDefault();
-    });
     
 
     /*-----------------------------------------------------------------
