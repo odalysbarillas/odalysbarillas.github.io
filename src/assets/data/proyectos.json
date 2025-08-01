@@ -38,33 +38,6 @@
     ]
   },
   {
-    "nombre": "Instituo de Fomento Municipal (INFOM)",
-    "slug": "infom-web",
-    "categoria": "sitios-web",
-    "url": "https://infom.gob.gt",
-    "descripcion": "Sitio web de INFOM",
-    "image": "https://infom.gob.gt/templates/yootheme/cache/a9/Home-Infom-Guatemala-a9d31a64.webp",
-    "galeria": [
-      "inicio.jpg",
-      "inicio_quienes_somos.jpg",
-      "inicio_servicios.jpg",
-      "publicaciones_recientes.jpg",
-      "programas.jpg",
-      "footer.jpg",
-      "quienes_somos.jpg",
-      "historia.jpg",
-      "valores.jpg",
-      "servicios.jpg",
-      "estructura.jpg",
-      "aguas_subterraneas.jpg",
-      "programa_Agua.jpg",
-      "noticias.jpg",
-      "transparencia.jpg",
-      "transparencia_descarga.jpg",
-      "contacto.jpg"
-    ]
-  },
-  {
     "nombre": "NESS Guatemala",
     "slug": "ness-gt",
     "categoria": "sitios-web",
